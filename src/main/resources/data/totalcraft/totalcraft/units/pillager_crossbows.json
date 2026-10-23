@@ -1,0 +1,15 @@
+{
+  "name": "Arbalétriers pillards",
+  "description": "Carreaux lents mais perforants, parfaits contre les monstres.",
+  "entity": "minecraft:pillager",
+  "squad_size": 4,
+  "cost": 280,
+  "category": "ranged",
+  "tags": ["illager"],
+  "health": 22, "damage": 7, "armor": 2, "speed": 0.33,
+  "range": 20,
+  "attack_cooldown": 45,
+  "morale": 75,
+  "bonus_vs": { "large": 1.4, "cavalry": 1.2 },
+  "equipment": { "mainhand": "minecraft:crossbow" }
+}

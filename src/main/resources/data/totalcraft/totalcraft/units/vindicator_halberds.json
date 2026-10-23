@@ -1,0 +1,14 @@
+{
+  "name": "Hallebardiers vindicateurs",
+  "description": "Infanterie anti-grands : brise les charges et les monstres.",
+  "entity": "minecraft:vindicator",
+  "squad_size": 4,
+  "cost": 300,
+  "category": "infantry",
+  "tags": ["illager"],
+  "health": 28, "damage": 6, "armor": 4, "speed": 0.32,
+  "attack_cooldown": 20,
+  "morale": 90,
+  "bonus_vs": { "cavalry": 1.6, "large": 1.4 },
+  "equipment": { "mainhand": "minecraft:iron_axe" }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Désert brûlant",
+  "description": "La chaleur épuise les troupes, sauf les enfants des sables.",
+  "terrain": "desert",
+  "gold_multiplier": 1.25,
+  "modifiers": [
+    { "target": "all", "stat": "speed", "value": 0.9 },
+    { "target": "desert", "stat": "damage", "value": 1.25 },
+    { "target": "desert", "stat": "defense", "value": 1.2 },
+    { "target": "beast", "stat": "health", "value": 0.9 }
+  ]
+}

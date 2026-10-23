@@ -1,0 +1,13 @@
+{
+  "name": "Araignées géantes",
+  "description": "Cavalerie de choc capable d'escalader les obstacles.",
+  "entity": "minecraft:spider",
+  "squad_size": 4,
+  "cost": 250,
+  "category": "cavalry",
+  "tags": ["beast", "arthropod"],
+  "health": 20, "damage": 4.5, "armor": 1, "speed": 0.33,
+  "attack_cooldown": 18,
+  "morale": 65,
+  "bonus_vs": { "ranged": 1.5, "infantry": 1.1 }
+}

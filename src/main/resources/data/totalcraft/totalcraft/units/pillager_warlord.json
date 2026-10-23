@@ -1,0 +1,16 @@
+{
+  "name": "Chef de guerre pillard",
+  "description": "Champion de mêlée qui galvanise ses troupes.",
+  "entity": "minecraft:vindicator",
+  "squad_size": 1,
+  "cost": 600,
+  "category": "champion",
+  "tags": ["illager"],
+  "health": 160, "damage": 12, "armor": 8, "speed": 0.33,
+  "attack_cooldown": 20,
+  "morale": 140,
+  "scale": 1.4,
+  "bonus_vs": { "cavalry": 1.3 },
+  "abilities": ["charge", "war_cry", "shield_wall"],
+  "equipment": { "mainhand": "minecraft:diamond_axe" }
+}

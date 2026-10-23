@@ -1,0 +1,12 @@
+{
+  "name": "Terres maudites",
+  "description": "Un sol infernal où les morts-vivants puisent leur force.",
+  "terrain": "wasteland",
+  "gold_multiplier": 1.15,
+  "modifiers": [
+    { "target": "undead", "stat": "damage", "value": 1.2 },
+    { "target": "undead", "stat": "defense", "value": 1.15 },
+    { "target": "illager", "stat": "defense", "value": 0.9 },
+    { "target": "magic", "stat": "damage", "value": 1.1 }
+  ]
+}

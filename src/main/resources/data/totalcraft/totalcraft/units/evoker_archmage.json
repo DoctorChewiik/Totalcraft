@@ -1,0 +1,14 @@
+{
+  "name": "Archimage évocateur",
+  "description": "Champion lanceur de sorts : crocs, foudre et soins.",
+  "entity": "minecraft:evoker",
+  "squad_size": 1,
+  "cost": 700,
+  "category": "champion",
+  "tags": ["illager", "magic"],
+  "health": 120, "damage": 6, "armor": 4, "speed": 0.3,
+  "attack_cooldown": 25,
+  "morale": 130,
+  "scale": 1.3,
+  "abilities": ["fangs", "lightning", "heal_aura"]
+}

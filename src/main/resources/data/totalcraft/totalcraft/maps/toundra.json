@@ -1,0 +1,11 @@
+{
+  "name": "Toundra gelée",
+  "description": "La neige ralentit tout le monde, le froid renforce les créatures du givre.",
+  "terrain": "tundra",
+  "gold_multiplier": 1.1,
+  "modifiers": [
+    { "target": "all", "stat": "speed", "value": 0.85 },
+    { "target": "frost", "stat": "damage", "value": 1.3 },
+    { "target": "undead", "stat": "defense", "value": 1.1 }
+  ]
+}

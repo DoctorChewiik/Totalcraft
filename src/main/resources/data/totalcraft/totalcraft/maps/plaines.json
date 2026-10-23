@@ -1,0 +1,9 @@
+{
+  "name": "Plaines verdoyantes",
+  "description": "Terrain dégagé, idéal pour les charges de cavalerie.",
+  "terrain": "plains",
+  "gold_multiplier": 1.0,
+  "modifiers": [
+    { "target": "cavalry", "stat": "speed", "value": 1.1 }
+  ]
+}
