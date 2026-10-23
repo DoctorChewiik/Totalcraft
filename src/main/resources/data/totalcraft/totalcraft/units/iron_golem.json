@@ -1,0 +1,13 @@
+{
+  "name": "Golem de fer",
+  "description": "Monstre de siège presque invulnérable aux flèches.",
+  "entity": "minecraft:iron_golem",
+  "squad_size": 1,
+  "cost": 420,
+  "category": "monster",
+  "tags": ["large", "construct"],
+  "health": 140, "damage": 15, "armor": 10, "speed": 0.25,
+  "attack_cooldown": 30,
+  "morale": 120,
+  "bonus_vs": { "infantry": 1.3, "cavalry": 1.2 }
+}

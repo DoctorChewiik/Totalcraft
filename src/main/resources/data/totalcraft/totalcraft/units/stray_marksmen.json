@@ -1,0 +1,16 @@
+{
+  "name": "Tireurs du givre",
+  "description": "Leurs flèches glacées ralentissent les cibles touchées.",
+  "entity": "minecraft:stray",
+  "squad_size": 4,
+  "cost": 240,
+  "category": "ranged",
+  "tags": ["undead", "frost"],
+  "health": 18, "damage": 5, "armor": 1, "speed": 0.25,
+  "range": 18,
+  "attack_cooldown": 34,
+  "projectile": "frost_arrow",
+  "morale": 65,
+  "bonus_vs": { "cavalry": 1.2, "large": 0.7 },
+  "equipment": { "mainhand": "minecraft:bow" }
+}

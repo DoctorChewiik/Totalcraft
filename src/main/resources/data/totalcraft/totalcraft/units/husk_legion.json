@@ -1,0 +1,14 @@
+{
+  "name": "Légion de momies",
+  "description": "Infanterie lourde des sables, redoutable dans le désert.",
+  "entity": "minecraft:husk",
+  "squad_size": 5,
+  "cost": 230,
+  "category": "infantry",
+  "tags": ["undead", "desert"],
+  "health": 26, "damage": 4, "armor": 5, "speed": 0.23,
+  "attack_cooldown": 20,
+  "morale": 85,
+  "bonus_vs": { "infantry": 1.15 },
+  "equipment": { "mainhand": "minecraft:iron_sword", "head": "minecraft:golden_helmet" }
+}

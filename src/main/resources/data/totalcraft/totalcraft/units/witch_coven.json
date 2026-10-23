@@ -1,0 +1,15 @@
+{
+  "name": "Cercle de sorcières",
+  "description": "Lancent des potions de dégâts, poison et lenteur. Inefficaces contre les morts-vivants.",
+  "entity": "minecraft:witch",
+  "squad_size": 3,
+  "cost": 320,
+  "category": "ranged",
+  "tags": ["magic"],
+  "health": 22, "damage": 6, "armor": 0, "speed": 0.25,
+  "range": 10,
+  "attack_cooldown": 50,
+  "projectile": "vanilla",
+  "morale": 60,
+  "bonus_vs": { "infantry": 1.3, "beast": 1.2 }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Seigneur Wither",
+  "description": "Champion mort-vivant en armure de netherite.",
+  "entity": "minecraft:wither_skeleton",
+  "squad_size": 1,
+  "cost": 650,
+  "category": "champion",
+  "tags": ["undead", "large"],
+  "health": 180, "damage": 13, "armor": 10, "speed": 0.28,
+  "attack_cooldown": 22,
+  "morale": 150,
+  "scale": 1.5,
+  "bonus_vs": { "infantry": 1.2 },
+  "abilities": ["war_cry", "fire_nova", "shield_wall"],
+  "equipment": {
+    "mainhand": "minecraft:netherite_sword",
+    "head": "minecraft:netherite_helmet",
+    "chest": "minecraft:netherite_chestplate"
+  }
+}

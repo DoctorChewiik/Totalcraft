@@ -1,0 +1,11 @@
+{
+  "name": "Forêt profonde",
+  "description": "Les arbres gênent les tirs et freinent la cavalerie.",
+  "terrain": "forest",
+  "gold_multiplier": 1.0,
+  "modifiers": [
+    { "target": "ranged", "stat": "damage", "value": 0.75 },
+    { "target": "cavalry", "stat": "speed", "value": 0.85 },
+    { "target": "beast", "stat": "damage", "value": 1.15 }
+  ]
+}

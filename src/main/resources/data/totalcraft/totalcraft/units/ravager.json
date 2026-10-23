@@ -1,0 +1,13 @@
+{
+  "name": "Ravageur",
+  "description": "Bête de guerre qui écrase l'infanterie en chargeant.",
+  "entity": "minecraft:ravager",
+  "squad_size": 1,
+  "cost": 500,
+  "category": "cavalry",
+  "tags": ["large", "beast"],
+  "health": 150, "damage": 13, "armor": 6, "speed": 0.3,
+  "attack_cooldown": 30,
+  "morale": 100,
+  "bonus_vs": { "infantry": 1.5, "ranged": 1.4 }
+}

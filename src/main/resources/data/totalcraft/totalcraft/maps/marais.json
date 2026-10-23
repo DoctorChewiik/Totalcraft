@@ -1,0 +1,12 @@
+{
+  "name": "Marais putride",
+  "description": "La boue englue les troupes au sol, la magie y est plus puissante.",
+  "terrain": "swamp",
+  "gold_multiplier": 1.05,
+  "modifiers": [
+    { "target": "infantry", "stat": "speed", "value": 0.85 },
+    { "target": "cavalry", "stat": "speed", "value": 0.8 },
+    { "target": "magic", "stat": "damage", "value": 1.3 },
+    { "target": "arthropod", "stat": "speed", "value": 1.15 }
+  ]
+}

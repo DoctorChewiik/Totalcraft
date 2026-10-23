@@ -1,0 +1,15 @@
+{
+  "name": "Archers squelettes",
+  "description": "Archers fragiles qui harcèlent l'infanterie à distance.",
+  "entity": "minecraft:skeleton",
+  "squad_size": 5,
+  "cost": 200,
+  "category": "ranged",
+  "tags": ["undead"],
+  "health": 16, "damage": 4, "armor": 0, "speed": 0.25,
+  "range": 16,
+  "attack_cooldown": 30,
+  "morale": 60,
+  "bonus_vs": { "infantry": 1.1, "large": 0.6 },
+  "equipment": { "mainhand": "minecraft:bow" }
+}
